@@ -20,8 +20,8 @@ function level.load()
 	block1.height = 50
 	block1.color = { 184, 134, 11 }
 	table.insert(level, block1)
-	block2.x = 250
-	block2.y = 200
+	block2.x = 300
+	block2.y = 250
 	block2.width = 300
 	block2.height = 50
 	block2.color = { 184, 134, 11 }

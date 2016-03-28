@@ -43,7 +43,9 @@ function localCheckCollision()
 	for i, block in ipairs(level) do 
 		if CheckCollision(player.x, player.y, player.width, 
 				player.height, block.x, block.y, block.width, block.height) then
-				return block
+				if player.y - player.height < block.y then 
+					return block
+				end
 		end
 	end
 
